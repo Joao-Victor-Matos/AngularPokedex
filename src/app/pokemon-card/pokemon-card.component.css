@@ -1,10 +1,14 @@
 * {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+}
 .pokemon-card__image {
   background: #f2f2f2;
   border-radius: 5px;
+  max-width: 220px;
 }
 .pokemon-card__info {
   margin-left: 10px;
@@ -26,7 +30,99 @@
 }
 
 .pokemon-card__type--grass {
-  font-size: small;
+  background: #9bcc50;
+  color: #212121;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--poison {
+  background: #b97fc9;
+  color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--bug {
+  background: -webkit-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+  background: -ms-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+  background: -moz-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+  background: -o-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+  background: linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+  background-color: #729f3f;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--dark {
+  background: -webkit-linear-gradient(180deg, #707070 50%, #707070 50%);
+  background: -ms-linear-gradient(180deg, #707070 50%, #707070 50%);
+  background: -moz-linear-gradient(180deg, #707070 50%, #707070 50%);
+  background: -o-linear-gradient(180deg, #707070 50%, #707070 50%);
+  background: linear-gradient(180deg, #707070 50%, #707070 50%);
+  background-color: #707070;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--dragon {
+  background: -webkit-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: -ms-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: -moz-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: -o-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  background-color: #53a4cf;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--electric {
+  background: -webkit-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+  background: -ms-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+  background: -moz-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+  background: -o-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+  background: linear-gradient(180deg, #eed535 50%, #eed535 50%);
+  background-color: #eed535;
+  color: #212121;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--fairy {
+  background: -webkit-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+  background: -ms-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+  background: -moz-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+  background: -o-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+  background: linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+  background-color: #fdb9e9;
+  color: #212121;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--fighting {
+  background: -webkit-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+  background: -ms-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+  background: -moz-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+  background: -o-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+  background: linear-gradient(180deg, #d56723 50%, #d56723 50%);
+  background-color: #d56723;
+  color: #fff;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
+
+.pokemon-card__type--fire {
+  background: -webkit-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+  background: -ms-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+  background: -moz-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+  background: -o-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+  background: linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+  background-color: #fd7d24;
+  color: #fff;
   padding: 3px 10px 3px 10px;
   border-radius: 3px;
 }
