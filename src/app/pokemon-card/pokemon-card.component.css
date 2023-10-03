@@ -1,0 +1,32 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.pokemon-card__image {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+.pokemon-card__info {
+  margin-left: 10px;
+}
+.pokemon-card__number {
+  color: grey;
+  font-weight: 600;
+}
+
+.pokemon-card__name {
+  font-size: 2rem;
+  padding-top: 2px;
+}
+
+.pokemon-card__types {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.pokemon-card__type--grass {
+  font-size: small;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+}
